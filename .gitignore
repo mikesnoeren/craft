@@ -1,6 +1,6 @@
 # IDE + OS
 /.idea
-/.DS_Store
+.DS_Store
 
 # Craft
 /.env
