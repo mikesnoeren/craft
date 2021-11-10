@@ -6,7 +6,7 @@ Please be aware that this project is very opinionated; it expects you to mostly 
 If you do require custom JavaScript or CSS, it will be bundled, transformed and minified using [esbuild](https://github.com/evanw/esbuild) and [PostCSS](https://github.com/postcss/postcss).
 
 ## Using mikesnoeren/craft
-The setup assumes you use [Nitro](https://github.com/craftcms/nitro), if you you use an alternative development environment please skip step X and step X.
+The setup assumes you use [Nitro](https://github.com/craftcms/nitro), if you you use an alternative development environment please change the steps below accordingly.
 
 Copy the repository: <br>
 ```git clone https://github.com/mikesnoeren/craft.git my-project``` 
