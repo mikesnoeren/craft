@@ -1,0 +1,13 @@
+# IDE + OS
+/.idea
+/.DS_Store
+
+# Craft
+/.env
+/web/cpresources/
+/web/uploads/
+/vendor/
+
+# Build Chain
+/node_modules/
+/web/dist/

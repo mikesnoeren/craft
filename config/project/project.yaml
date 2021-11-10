@@ -1,0 +1,44 @@
+dateModified: 1635883625
+email:
+  fromEmail: $SITE_EMAIL
+  fromName: $SITE_NAME
+  replyToEmail: $SITE_EMAIL
+  template: null
+  transportSettings:
+    command: ''
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    4d8ac26f-0eed-4e84-8f0f-fb59450142e3: Craft # Craft
+    6e6e5ab5-ec46-433d-80af-42840709af85: Common # Common
+    fd05975e-1963-4ddd-8f7b-57678dbe0ac6: Craft # Craft
+plugins:
+  express-forms:
+    edition: lite
+    enabled: true
+    schemaVersion: 1.0.1
+  kint:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+system:
+  edition: solo
+  live: true
+  name: $SITE_NAME
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
