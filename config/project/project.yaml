@@ -1,4 +1,4 @@
-dateModified: 1635883625
+dateModified: 1637100218
 email:
   fromEmail: $SITE_EMAIL
   fromName: $SITE_NAME
@@ -17,6 +17,10 @@ plugins:
     edition: lite
     enabled: true
     schemaVersion: 1.0.1
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   kint:
     edition: standard
     enabled: true
