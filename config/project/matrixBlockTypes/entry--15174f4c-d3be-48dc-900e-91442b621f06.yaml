@@ -1,0 +1,43 @@
+field: f2e5c428-680b-4d82-810b-a0d5e1ead17f # Footer Menu
+fieldLayouts:
+  96a08824-e7a4-462f-ad9d-d3c623823320:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 67f102fe-cbe0-438a-8e71-e1f062609695 # Entry
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  67f102fe-cbe0-438a-8e71-e1f062609695: # Entry
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: entry
+    instructions: ''
+    name: Entry
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: entry
+name: Entry
+sortOrder: 1

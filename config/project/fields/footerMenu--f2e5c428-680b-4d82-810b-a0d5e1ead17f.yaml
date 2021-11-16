@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 6bb82573-3aa5-4763-b4ca-603601dce3d2 # Global
+handle: footerMenu
+instructions: ''
+name: 'Footer Menu'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_footermenu}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: none
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
