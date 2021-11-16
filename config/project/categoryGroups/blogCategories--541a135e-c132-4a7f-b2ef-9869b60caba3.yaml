@@ -32,7 +32,15 @@ fieldLayouts:
 handle: blogCategories
 name: 'Blog Categories'
 siteSettings:
-  4d8ac26f-0eed-4e84-8f0f-fb59450142e3: # Craft
+  4d8ac26f-0eed-4e84-8f0f-fb59450142e3: # English
+    hasUrls: false
+    template: null
+    uriFormat: null
+  8ada0e08-6502-434a-b7ff-c252b73ca0df: # German
+    hasUrls: false
+    template: null
+    uriFormat: null
+  f5399107-84c7-4af5-8764-8c333d1b9ebc: # Dutch
     hasUrls: false
     template: null
     uriFormat: null
