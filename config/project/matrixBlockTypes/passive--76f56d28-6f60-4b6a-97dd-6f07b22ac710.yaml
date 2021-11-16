@@ -17,7 +17,7 @@ fieldLayouts:
         sortOrder: 1
 fields:
   447b1110-2c9a-4975-80e5-fcde89668553: # Passive Title
-    columnSuffix: mqurrxfc
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: passiveTitle

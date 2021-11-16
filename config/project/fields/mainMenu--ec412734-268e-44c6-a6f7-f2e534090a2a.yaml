@@ -10,7 +10,7 @@ settings:
   maxBlocks: ''
   minBlocks: ''
   propagationKeyFormat: null
-  propagationMethod: all
+  propagationMethod: none
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

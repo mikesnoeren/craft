@@ -26,7 +26,7 @@ fieldLayouts:
         sortOrder: 1
 fields:
   796b6a3e-2cbd-4359-8c33-3c5411a4112c: # Custom URL
-    columnSuffix: jwerrdxu
+    columnSuffix: null
     contentColumnType: string(255)
     fieldGroup: null
     handle: customUrl
@@ -44,7 +44,7 @@ fields:
     translationMethod: none
     type: craft\fields\Url
   ebf5391a-5427-4f9f-ad74-cf0abc48ad23: # Custom Title
-    columnSuffix: tqtzfnmv
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: customTitle
