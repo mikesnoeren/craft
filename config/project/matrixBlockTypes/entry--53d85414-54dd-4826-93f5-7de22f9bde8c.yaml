@@ -1,0 +1,43 @@
+field: ec412734-268e-44c6-a6f7-f2e534090a2a # Main Menu
+fieldLayouts:
+  bcbf5a1c-e26c-4b22-be2f-ad47893c917c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4c265acc-11f0-466c-81c1-c43c5cfa3eb9 # Entry
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4c265acc-11f0-466c-81c1-c43c5cfa3eb9: # Entry
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: entry
+    instructions: ''
+    name: Entry
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: entry
+name: Entry
+sortOrder: 1

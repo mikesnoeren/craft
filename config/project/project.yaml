@@ -1,4 +1,4 @@
-dateModified: 1637101452
+dateModified: 1637102159
 email:
   fromEmail: $SITE_EMAIL
   fromName: $SITE_NAME
@@ -9,11 +9,19 @@ email:
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    4c265acc-11f0-466c-81c1-c43c5cfa3eb9: Entry # Entry
     4d8ac26f-0eed-4e84-8f0f-fb59450142e3: Craft # Craft
+    005e684f-7b7c-4ad0-9833-7c86852558f7: Custom # Custom
     5f8ef687-1fd6-4714-9fe5-0e0f7900dcaf: Main # Main
     6bb82573-3aa5-4763-b4ca-603601dce3d2: Global # Global
     6e6e5ab5-ec46-433d-80af-42840709af85: Common # Common
+    53d85414-54dd-4826-93f5-7de22f9bde8c: Entry # Entry
+    76f56d28-6f60-4b6a-97dd-6f07b22ac710: Passive # Passive
+    447b1110-2c9a-4975-80e5-fcde89668553: 'Passive Title' # Passive Title
     541a135e-c132-4a7f-b2ef-9869b60caba3: 'Blog Categories' # Blog Categories
+    796b6a3e-2cbd-4359-8c33-3c5411a4112c: 'Custom URL' # Custom URL
+    ebf5391a-5427-4f9f-ad74-cf0abc48ad23: 'Custom Title' # Custom Title
+    ec412734-268e-44c6-a6f7-f2e534090a2a: 'Main Menu' # Main Menu
     fd05975e-1963-4ddd-8f7b-57678dbe0ac6: Craft # Craft
 plugins:
   express-forms:
