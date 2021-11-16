@@ -1,4 +1,4 @@
-dateModified: 1637102742
+dateModified: 1637102849
 email:
   fromEmail: $SITE_EMAIL
   fromName: $SITE_NAME
@@ -9,6 +9,7 @@ email:
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    2d0fb778-2d78-49c0-b94d-740200560f8f: Menu # Menu
     4c265acc-11f0-466c-81c1-c43c5cfa3eb9: Entry # Entry
     4d8ac26f-0eed-4e84-8f0f-fb59450142e3: English # English
     005e684f-7b7c-4ad0-9833-7c86852558f7: Custom # Custom
