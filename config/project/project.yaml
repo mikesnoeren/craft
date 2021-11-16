@@ -1,4 +1,4 @@
-dateModified: 1637100218
+dateModified: 1637100566
 email:
   fromEmail: $SITE_EMAIL
   fromName: $SITE_NAME
@@ -10,6 +10,7 @@ email:
 meta:
   __names__:
     4d8ac26f-0eed-4e84-8f0f-fb59450142e3: Craft # Craft
+    6bb82573-3aa5-4763-b4ca-603601dce3d2: Global # Global
     6e6e5ab5-ec46-433d-80af-42840709af85: Common # Common
     fd05975e-1963-4ddd-8f7b-57678dbe0ac6: Craft # Craft
 plugins:
