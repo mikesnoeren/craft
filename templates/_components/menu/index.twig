@@ -1,0 +1,13 @@
+{% if menu is defined %}
+    <nav>
+        <ul class="{{ ulClass ?? false }}">
+            {% nav node in menu %}
+                <li>
+                    {% include '_components/menu/types/' ~ node.type ~ '.twig' ignore missing with {
+                        aClass: aClass ?? false
+                    }  %}
+                </li>
+            {% endnav %}
+        </ul>
+    </nav>
+{% endif %}
