@@ -1,0 +1,41 @@
+field: f2e5c428-680b-4d82-810b-a0d5e1ead17f # Footer Menu
+fieldLayouts:
+  45faef83-e831-4197-9fdb-6de077d83db7:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f4e1bac5-a983-4505-91d2-5a26971ad491 # Passive Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  f4e1bac5-a983-4505-91d2-5a26971ad491: # Passive Title
+    columnSuffix: amxnexwt
+    contentColumnType: text
+    fieldGroup: null
+    handle: passiveTitle
+    instructions: ''
+    name: 'Passive Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: passive
+name: Passive
+sortOrder: 3

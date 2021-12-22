@@ -1,0 +1,41 @@
+field: ec412734-268e-44c6-a6f7-f2e534090a2a # Main Menu
+fieldLayouts:
+  b2d3ac13-6ab2-4689-8e0b-5951c1a8f2c5:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 447b1110-2c9a-4975-80e5-fcde89668553 # Passive Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  447b1110-2c9a-4975-80e5-fcde89668553: # Passive Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: passiveTitle
+    instructions: ''
+    name: 'Passive Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: passive
+name: Passive
+sortOrder: 3

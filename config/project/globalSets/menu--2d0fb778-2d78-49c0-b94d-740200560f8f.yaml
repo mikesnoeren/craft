@@ -1,0 +1,32 @@
+fieldLayouts:
+  7c007c3a-2be6-49f4-b030-95c50b49314a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ec412734-268e-44c6-a6f7-f2e534090a2a # Main Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Main Menu'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: f2e5c428-680b-4d82-810b-a0d5e1ead17f # Footer Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Footer Menu'
+        sortOrder: 2
+handle: menu
+name: Menu
+sortOrder: 1

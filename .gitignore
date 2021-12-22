@@ -5,7 +5,7 @@
 # Craft
 /.env
 /web/cpresources/
-/web/uploads/
+/web/upload/
 /vendor/
 
 # Build Chain

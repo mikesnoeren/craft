@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="{{ craft.app.language|slice(0, 2) }}">
     <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta charset="utf-8" />
-        <meta name="viewport"
-            content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+        <link href="/dist/style.css" rel="stylesheet"/>
 
-        <link href="/dist/style.css" rel="stylesheet" />
+        {% hook "seo" %}
+        {{ head() }}
+
+        <style>
+            [x-cloak] {
+                display: none !important;
+            }
+        </style>
     </head>
-    <body>
-    <header>
-        {% block header %}
-        {% endblock %}
-    </header>
+    <body class="bg-gray-100">
+        <div class="max-w-[2560px] mx-auto px-2 bg-white">
+            <header>
+                {% block header %}
+                {% endblock %}
+            </header>
 
-    <main>
-        {% block main %}
-        {% endblock %}
-    </main>
+            <main>
+                {% block main %}
+                {% endblock %}
+            </main>
 
-    <footer>
-        {% block footer %}
-        {% endblock %}
-    </footer>
+            <footer>
+                {% block footer %}
+                {% endblock %}
+            </footer>
+        </div>
 
         <script src="/dist/app.js"></script>
     </body>

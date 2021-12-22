@@ -1,0 +1,68 @@
+field: ec412734-268e-44c6-a6f7-f2e534090a2a # Main Menu
+fieldLayouts:
+  87d2b08c-db00-4703-a79e-7845ce9822a9:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ebf5391a-5427-4f9f-ad74-cf0abc48ad23 # Custom Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 796b6a3e-2cbd-4359-8c33-3c5411a4112c # Custom URL
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  796b6a3e-2cbd-4359-8c33-3c5411a4112c: # Custom URL
+    columnSuffix: null
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: customUrl
+    instructions: ''
+    name: 'Custom URL'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+        - tel
+        - email
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  ebf5391a-5427-4f9f-ad74-cf0abc48ad23: # Custom Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: customTitle
+    instructions: ''
+    name: 'Custom Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: custom
+name: Custom
+sortOrder: 2
