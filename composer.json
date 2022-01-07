@@ -1,13 +1,12 @@
 {
   "require": {
-    "craftcms/cms": "3.7.26",
+    "craftcms/cms": "3.7.28",
     "ether/seo": "3.7.4",
     "mildlygeeky/craft-kint": "1.0.0",
     "nystudio107/craft-autocomplete": "^1.0",
-    "putyourlightson/craft-sprig": "1.10.4",
     "solspace/craft-express-forms": "1.1.1",
     "verbb/field-manager": "2.2.4",
-    "verbb/super-table": "2.7.0",
+    "verbb/super-table": "2.7.1",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {
