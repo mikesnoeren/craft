@@ -1,4 +1,4 @@
-dateModified: 1640196805
+dateModified: 1641589116
 email:
   fromEmail: $SITE_EMAIL
   fromName: $SITE_NAME
@@ -92,10 +92,6 @@ plugins:
               - ' - {{ currentSite.group.name }}'
       titleSuffix: null
       twitterHandle: ''
-  sprig:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
   super-table:
     edition: standard
     enabled: true
