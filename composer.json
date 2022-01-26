@@ -4,7 +4,7 @@
     "ether/seo": "3.7.4",
     "mildlygeeky/craft-kint": "1.0.0",
     "nystudio107/craft-autocomplete": "^1.0",
-    "solspace/craft-express-forms": "1.1.1",
+    "solspace/craft-express-forms": "1.1.2",
     "verbb/field-manager": "2.2.4",
     "verbb/super-table": "2.7.1",
     "vlucas/phpdotenv": "^5.4.1"
