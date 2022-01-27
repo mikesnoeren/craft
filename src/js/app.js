@@ -4,4 +4,4 @@ Alpine.start();
 
 // Custom JS shall be written below..
 
-// TODO: Check if todo plugin works in JS
+// TODO: Check if todo plugin works in JS (updated)
