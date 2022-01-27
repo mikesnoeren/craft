@@ -40,7 +40,5 @@ class Module extends \yii\base\Module
         parent::init();
 
         // Custom initialization code goes here...
-        // TODO: Check if todo plugin works in PHP (updated)
-        // TODO: Add extra test todo comment
     }
 }
