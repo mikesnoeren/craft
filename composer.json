@@ -7,7 +7,7 @@
     "solspace/craft-express-forms": "1.1.2",
     "verbb/field-manager": "2.2.4",
     "verbb/super-table": "2.7.1",
-    "vlucas/phpdotenv": "^3.4.0"
+    "vlucas/phpdotenv": "^5.4.1"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
