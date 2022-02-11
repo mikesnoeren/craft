@@ -8,7 +8,6 @@
         "build:js": "esbuild src/js/app.js --bundle --minify --outfile=web/dist/app.js",
         "watch:img": "watch 'ncp src/img web/dist/img' src/img",
         "build:img": "ncp src/img web/dist/img",
-        "watch:browser-sync": "browser-sync start -p $(grep SITE_URL .env | cut -d '=' -f2) --files 'templates/**/*.twig' 'web/dist/style.css' 'web/dist/app.js' --no-open --no-ui",
         "build": "npm-run-all build:*",
         "watch": "npm-run-all --parallel watch:*"
     },
@@ -20,7 +19,6 @@
         "@tailwindcss/line-clamp": "^0.3.1",
         "@tailwindcss/typography": "^0.5.0",
         "autoprefixer": "^10.4.2",
-        "browser-sync": "^2.27.5",
         "cross-env": "^7.0.3",
         "cssnano": "^5.0.16",
         "esbuild": "^0.14.14",

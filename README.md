@@ -6,19 +6,20 @@ Please be aware that this project is very opinionated; it expects you to mostly 
 If you do require custom JavaScript or CSS, it will be bundled, transformed and minified using [esbuild](https://github.com/evanw/esbuild) and [PostCSS](https://github.com/postcss/postcss).
 
 ## Using mikesnoeren/craft
-The setup assumes you use [Nitro](https://github.com/craftcms/nitro), if you you use an alternative development environment please change the steps below accordingly.
+The setup assumes you use [Lando](https://github.com/lando/lando), if you you use an alternative development environment please change the steps below accordingly.
 
-Copy the repository: <br>
-```git clone https://github.com/mikesnoeren/craft.git my-project``` 
+###Copy the repository:
+```bash
+git clone https://github.com/mikesnoeren/craft.git my-project
+``` 
 
-Install dependencies: <br>
-```composer install && npm install```
+###Run it:
+```bash
+lando start && lando npm run watch
+```
 
-Setup Nitro: <br>
-```nitro add```
-
-Build the project: <br>
-```npm run build```
-
-Start developing: <br>
-```npm run watch```
+###Sync `node_modules` & `vendor` from container to host:
+```bash
+docker cp craft_appserver_1:/app/vendor . && \
+docker cp craft_node_1:/app/node_modules .
+```
