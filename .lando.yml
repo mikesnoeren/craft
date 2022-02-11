@@ -1,0 +1,41 @@
+name: craft
+recipe: lemp
+excludes:
+  - vendor
+  - node_modules
+config:
+  php: '8.1'
+  database: mysql:8.0
+  webroot: web
+  composer_version: '2'
+  config:
+    vhosts: .lando/default.conf
+
+services:
+  appserver:
+    config:
+      php: .lando/php.ini
+    build:
+      - composer install --quiet --optimize-autoloader --no-interaction
+  database:
+    portforward: 3306
+    run_as_root:
+      - mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
+  mailhog:
+    type: mailhog:v1.0.1
+    portforward: 1025
+    hogfrom:
+      - appserver
+  node:
+    type: node:16
+    build:
+      - npm install --quiet --no-fund
+      - npm run build
+
+tooling:
+  craft:
+    service: appserver
+    cmd: php craft
+  npm:
+    service: node
+    cmd: npm
