@@ -1,18 +1,12 @@
-dateModified: 1645001164
+dateModified: 1645016503
 email:
   fromEmail: $EMAIL
   fromName: $SITE_NAME
   replyToEmail: $EMAIL
   template: null
   transportSettings:
-    encryptionMethod: $SMTP_ENCRYPTION
-    host: $SMTP_HOST
-    password: $SMTP_PASSWORD
-    port: $SMTP_PORT
-    timeout: '10'
-    useAuthentication: $SMTP_AUTHENTICATION
-    username: $SMTP_USERNAME
-  transportType: craft\mail\transportadapters\Smtp
+    command: '/usr/sbin/sendmail -bs'
+  transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
     2d0fb778-2d78-49c0-b94d-740200560f8f: Menu # Menu
