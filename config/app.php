@@ -24,6 +24,6 @@ return [
     'modules' => [
         'my-module' => \modules\Module::class,
     ],
-    // todo: use Sendmail is smtp settings aren't set in .env
+    // TODO: use Sendmail is smtp settings aren't set in .env
     //'bootstrap' => ['my-module'],
 ];
