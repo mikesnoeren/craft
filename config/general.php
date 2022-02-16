@@ -27,7 +27,6 @@ return [
     'timezone' => 'Europe/Amsterdam',
     'useEmailAsUsername' => true,
 
-
     // Routing
     'omitScriptNameInUrls' => true,
 

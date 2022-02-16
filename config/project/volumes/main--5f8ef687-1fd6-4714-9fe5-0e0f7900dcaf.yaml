@@ -32,9 +32,9 @@ handle: main
 hasUrls: true
 name: Main
 settings:
-  path: '@webroot/upload/main'
+  path: $ASSET_WEBROOT_MAIN
 sortOrder: 1
 titleTranslationKeyFormat: null
-titleTranslationMethod: null
+titleTranslationMethod: site
 type: craft\volumes\Local
-url: '@web/upload/main/'
+url: $ASSET_WEB_MAIN

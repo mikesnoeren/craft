@@ -1,22 +1,28 @@
-dateModified: 1641589116
+dateModified: 1645001164
 email:
-  fromEmail: $SITE_EMAIL
+  fromEmail: $EMAIL
   fromName: $SITE_NAME
-  replyToEmail: $SITE_EMAIL
+  replyToEmail: $EMAIL
   template: null
   transportSettings:
-    command: ''
-  transportType: craft\mail\transportadapters\Sendmail
+    encryptionMethod: $SMTP_ENCRYPTION
+    host: $SMTP_HOST
+    password: $SMTP_PASSWORD
+    port: $SMTP_PORT
+    timeout: '10'
+    useAuthentication: $SMTP_AUTHENTICATION
+    username: $SMTP_USERNAME
+  transportType: craft\mail\transportadapters\Smtp
 meta:
   __names__:
     2d0fb778-2d78-49c0-b94d-740200560f8f: Menu # Menu
     4c265acc-11f0-466c-81c1-c43c5cfa3eb9: Entry # Entry
-    4d8ac26f-0eed-4e84-8f0f-fb59450142e3: English # English
+    4d8ac26f-0eed-4e84-8f0f-fb59450142e3: $SITE_NAME_EN # $SITE_NAME_EN
     005e684f-7b7c-4ad0-9833-7c86852558f7: Custom # Custom
     5f8ef687-1fd6-4714-9fe5-0e0f7900dcaf: Main # Main
     6bb82573-3aa5-4763-b4ca-603601dce3d2: Global # Global
     6e6e5ab5-ec46-433d-80af-42840709af85: Common # Common
-    8ada0e08-6502-434a-b7ff-c252b73ca0df: German # German
+    8ada0e08-6502-434a-b7ff-c252b73ca0df: $SITE_NAME_DE # $SITE_NAME_DE
     051d5b55-8d14-441c-9e97-81e02250c265: Custom # Custom
     53d85414-54dd-4826-93f5-7de22f9bde8c: Entry # Entry
     67f102fe-cbe0-438a-8e71-e1f062609695: Entry # Entry
@@ -32,7 +38,7 @@ meta:
     ec412734-268e-44c6-a6f7-f2e534090a2a: 'Main Menu' # Main Menu
     f2e5c428-680b-4d82-810b-a0d5e1ead17f: 'Footer Menu' # Footer Menu
     f4e1bac5-a983-4505-91d2-5a26971ad491: 'Passive Title' # Passive Title
-    f5399107-84c7-4af5-8764-8c333d1b9ebc: Dutch # Dutch
+    f5399107-84c7-4af5-8764-8c333d1b9ebc: $SITE_NAME_NL # $SITE_NAME_NL
     fd05975e-1963-4ddd-8f7b-57678dbe0ac6: $SITE_NAME # $SITE_NAME
 plugins:
   express-forms:
