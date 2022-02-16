@@ -3,7 +3,7 @@ enabled: true
 handle: german
 hasUrls: true
 language: de
-name: German
+name: $SITE_NAME_DE
 primary: false
 siteGroup: fd05975e-1963-4ddd-8f7b-57678dbe0ac6 # $SITE_NAME
 sortOrder: 3

@@ -3,7 +3,7 @@ enabled: true
 handle: dutch
 hasUrls: true
 language: nl
-name: Dutch
+name: $SITE_NAME_NL
 primary: false
 siteGroup: fd05975e-1963-4ddd-8f7b-57678dbe0ac6 # $SITE_NAME
 sortOrder: 2
