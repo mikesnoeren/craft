@@ -36,7 +36,7 @@ return [
 
     // Assets
     'convertFilenamesToAscii' => true,
-    'brokenImagePath' => '', //todo: add broken image path.
+    'brokenImagePath' => '', // TODO: add broken image path
 
     // GraphQL
     'enableGql' => false
