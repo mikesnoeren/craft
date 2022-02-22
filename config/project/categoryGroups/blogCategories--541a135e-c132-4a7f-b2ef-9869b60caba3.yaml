@@ -32,7 +32,7 @@ fieldLayouts:
 handle: blogCategories
 name: 'Blog Categories'
 siteSettings:
-  4d8ac26f-0eed-4e84-8f0f-fb59450142e3: # $SITE_NAME_EN
+  4d8ac26f-0eed-4e84-8f0f-fb59450142e3: # $SITE_NAME
     hasUrls: false
     template: null
     uriFormat: null
