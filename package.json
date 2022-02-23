@@ -31,6 +31,6 @@
         "watch": "^1.0.2"
     },
     "dependencies": {
-        "alpinejs": "^3.8.1"
+        "alpinejs": "^3.9.0"
     }
 }
