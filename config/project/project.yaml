@@ -1,4 +1,4 @@
-dateModified: 1645566328
+dateModified: 1647199388
 email:
   fromEmail: $EMAIL
   fromName: $SITE_NAME
@@ -11,7 +11,7 @@ meta:
   __names__:
     2d0fb778-2d78-49c0-b94d-740200560f8f: Menu # Menu
     4c265acc-11f0-466c-81c1-c43c5cfa3eb9: Entry # Entry
-    4d8ac26f-0eed-4e84-8f0f-fb59450142e3: $SITE_NAME # $SITE_NAME
+    4d8ac26f-0eed-4e84-8f0f-fb59450142e3: $SITE_NAME_EN # $SITE_NAME_EN
     005e684f-7b7c-4ad0-9833-7c86852558f7: Custom # Custom
     5f8ef687-1fd6-4714-9fe5-0e0f7900dcaf: Main # Main
     6bb82573-3aa5-4763-b4ca-603601dce3d2: Global # Global
