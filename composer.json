@@ -16,7 +16,10 @@
   "autoload": {
     "psr-4": {
       "modules\\": "modules/"
-    }
+    },
+    "files": [
+      "config/kint/kint.php"
+    ]
   },
   "config": {
     "sort-packages": true,
