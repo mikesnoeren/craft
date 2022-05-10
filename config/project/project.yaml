@@ -1,4 +1,4 @@
-dateModified: 1645566328
+dateModified: 1652082223
 email:
   fromEmail: $EMAIL
   fromName: $SITE_NAME
@@ -11,7 +11,7 @@ meta:
   __names__:
     2d0fb778-2d78-49c0-b94d-740200560f8f: Menu # Menu
     4c265acc-11f0-466c-81c1-c43c5cfa3eb9: Entry # Entry
-    4d8ac26f-0eed-4e84-8f0f-fb59450142e3: $SITE_NAME # $SITE_NAME
+    4d8ac26f-0eed-4e84-8f0f-fb59450142e3: $SITE_NAME_EN # $SITE_NAME_EN
     005e684f-7b7c-4ad0-9833-7c86852558f7: Custom # Custom
     5f8ef687-1fd6-4714-9fe5-0e0f7900dcaf: Main # Main
     6bb82573-3aa5-4763-b4ca-603601dce3d2: Global # Global
@@ -26,6 +26,8 @@ meta:
     541a135e-c132-4a7f-b2ef-9869b60caba3: 'Blog Categories' # Blog Categories
     796b6a3e-2cbd-4359-8c33-3c5411a4112c: 'Custom URL' # Custom URL
     15174f4c-d3be-48dc-900e-91442b621f06: Entry # Entry
+    30153e1f-ab40-4497-8d01-3b1425401652: Home # Home
+    a252e665-52b5-4799-b56f-cc3bc1eb184f: Home # Home
     c3ab0099-2bd0-4fb3-9f99-0b7ef05a796d: 'Custom URL' # Custom URL
     cfa92a12-d5a1-41d8-b55e-8678206d6977: Passive # Passive
     ebf5391a-5427-4f9f-ad74-cf0abc48ad23: 'Custom Title' # Custom Title
@@ -35,18 +37,18 @@ meta:
     f5399107-84c7-4af5-8764-8c333d1b9ebc: $SITE_NAME_NL # $SITE_NAME_NL
     fd05975e-1963-4ddd-8f7b-57678dbe0ac6: $SITE_NAME # $SITE_NAME
 plugins:
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  elements-panel:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   express-forms:
     edition: lite
     enabled: true
     schemaVersion: 1.0.1
-  field-manager:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  kint:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
   seo:
     edition: standard
     enabled: true

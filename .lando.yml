@@ -18,12 +18,10 @@ services:
     build:
       - composer install --optimize-autoloader --no-interaction
   database:
-    portforward: 3306
     run_as_root:
       - mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
   mailhog:
-    type: mailhog:v1.0.1
-    portforward: 1025
+    type: mailhog
     hogfrom:
       - appserver
   node:
