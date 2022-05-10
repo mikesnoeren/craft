@@ -10,9 +10,13 @@ updates:
     schedule:
       interval: "monthly"
     target-branch: "develop"
-      
+    allow:
+      - dependency-type: "direct"
+
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "monthly"
     target-branch: "develop"
+    allow:
+      - dependency-type: "direct"
