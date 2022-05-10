@@ -2,10 +2,10 @@
   "require": {
     "craftcms/cms": "3.7.34",
     "ether/seo": "3.7.4",
-    "mildlygeeky/craft-kint": "1.0.0",
     "nystudio107/craft-autocomplete": "^1.0",
+    "putyourlightson/craft-elements-panel": "^1.1",
     "solspace/craft-express-forms": "1.1.2",
-    "verbb/field-manager": "2.2.4",
+    "studioespresso/craft-dumper": "2.0.0",
     "verbb/super-table": "2.7.1",
     "vlucas/phpdotenv": "^5.4.1"
   },
@@ -16,10 +16,7 @@
   "autoload": {
     "psr-4": {
       "modules\\": "modules/"
-    },
-    "files": [
-      "config/kint/kint.php"
-    ]
+    }
   },
   "config": {
     "sort-packages": true,
