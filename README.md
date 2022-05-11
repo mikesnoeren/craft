@@ -1,6 +1,6 @@
 # About mikesnoeren/craft
 
-This repository was created to provide an easy starting point for your new [Craft CMS 3](https://github.com/craftcms/cms) projects.
+This repository was created to provide an easy starting point for your new [Craft CMS 4](https://github.com/craftcms/cms) projects.
 
 Please be aware that this project is very opinionated; it expects you to mostly be using [TailwindCSS](https://github.com/tailwindlabs/tailwindcss) and [Alpine.js](https://github.com/alpinejs/alpine) for the frontend. 
 If you do require custom JavaScript or CSS, it will be bundled, transformed and minified using [esbuild](https://github.com/evanw/esbuild) and [PostCSS](https://github.com/postcss/postcss).
