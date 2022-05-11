@@ -1,5 +1,5 @@
 name: craft
-recipe: lemp
+recipe: lamp
 excludes:
   - vendor
   - node_modules
@@ -8,13 +8,9 @@ config:
   database: mysql:8.0
   webroot: web
   composer_version: '2'
-  config:
-    vhosts: .lando/default.conf
 
 services:
   appserver:
-    config:
-      php: .lando/php.ini
     build:
       - composer install --optimize-autoloader --no-interaction
   database:
