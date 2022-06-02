@@ -1,4 +1,4 @@
-dateModified: 1652287789
+dateModified: 1654119667
 email:
   fromEmail: $CRAFT_EMAIL
   fromName: $CRAFT_SITE_NAME
@@ -53,6 +53,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  express-forms:
+    edition: lite
+    enabled: true
+    schemaVersion: 1.0.1
   seo:
     edition: standard
     enabled: true
@@ -98,6 +102,10 @@ plugins:
               - ' - {{ currentSite.group.name }}'
       titleSuffix: null
       twitterHandle: ''
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
