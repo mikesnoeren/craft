@@ -4,7 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
-        <link href="/dist/style.css" rel="stylesheet"/>
+        {{ craft.vite.script('src/js/app.js') }}
 
         {% hook "seo" %}
         {{ head() }}
@@ -24,6 +24,7 @@
 
             <main>
                 {% block main %}
+                    {# todo: replace Dumper plugin with Kint whenever it is released for Craft 4. #}
                 {% endblock %}
             </main>
 
@@ -32,7 +33,5 @@
                 {% endblock %}
             </footer>
         </div>
-
-        <script src="/dist/app.js"></script>
     </body>
 </html>

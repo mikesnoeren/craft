@@ -1,36 +1,29 @@
 {
     "name": "craft-boilerplate",
     "version": "1.0.0",
-    "scripts": {
-        "watch:css": "cross-env TAILWIND_MODE=watch postcss src/css/style.css -o web/dist/style.css -w",
-        "build:css": "cross-env NODE_ENV=production postcss src/css/style.css -o web/dist/style.css",
-        "watch:js": "esbuild src/js/app.js --bundle --sourcemap --watch --outfile=web/dist/app.js",
-        "build:js": "esbuild src/js/app.js --bundle --minify --outfile=web/dist/app.js",
-        "watch:img": "watch 'ncp src/img web/dist/img' src/img",
-        "build:img": "ncp src/img web/dist/img",
-        "build": "npm-run-all build:*",
-        "watch": "npm-run-all --parallel watch:*"
-    },
     "keywords": [],
     "author": "Mike Snoeren",
     "license": "MIT",
+    "engines": {
+        "node": "^16"
+    },
+    "dependencies": {
+        "alpinejs": "^3.10.2"
+    },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.1",
         "@tailwindcss/line-clamp": "^0.4.0",
         "@tailwindcss/typography": "^0.5.2",
         "autoprefixer": "^10.4.7",
-        "cross-env": "^7.0.3",
-        "cssnano": "^5.1.7",
-        "esbuild": "^0.14.38",
-        "ncp": "^2.0.0",
-        "npm-run-all": "^4.1.5",
         "postcss": "^8.4.13",
-        "postcss-cli": "^9.1.0",
         "postcss-import": "^14.1.0",
         "tailwindcss": "^3.0.24",
-        "watch": "^1.0.2"
+        "vite": "^2.9.9",
+        "vite-plugin-compression": "^0.5.1",
+        "vite-plugin-restart": "^0.1.1"
     },
-    "dependencies": {
-        "alpinejs": "^3.10.2"
+    "scripts": {
+        "build": "vite build",
+        "watch": "NODE_ENV=dev vite"
     }
 }
