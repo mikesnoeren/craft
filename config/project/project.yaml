@@ -1,4 +1,4 @@
-dateModified: 1654119667
+dateModified: 1657207920
 email:
   fromEmail: $CRAFT_EMAIL
   fromName: $CRAFT_SITE_NAME
@@ -57,6 +57,10 @@ plugins:
     edition: lite
     enabled: true
     schemaVersion: 1.0.1
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
   seo:
     edition: standard
     enabled: true
