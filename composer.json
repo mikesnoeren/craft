@@ -1,6 +1,6 @@
 {
     "require": {
-        "craftcms/cms": "4.1.2",
+        "craftcms/cms": "4.2.1.1",
         "craftcms/redactor": "3.0.2",
         "ether/seo": "v4.0.3",
         "nystudio107/craft-autocomplete": "^1.0",
