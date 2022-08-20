@@ -8,7 +8,7 @@
         "node": "^16"
     },
     "dependencies": {
-        "alpinejs": "^3.10.2"
+        "alpinejs": "^3.10.3"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.1",
