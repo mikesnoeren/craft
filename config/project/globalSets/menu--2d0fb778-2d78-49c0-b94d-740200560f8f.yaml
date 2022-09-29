@@ -17,7 +17,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: f2e5c428-680b-4d82-810b-a0d5e1ead17f # Footer Menu
+            fieldUid: f2e5c428-680b-4d82-810b-a0d5e1ead17f
             instructions: null
             label: null
             required: false

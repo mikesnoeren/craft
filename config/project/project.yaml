@@ -1,4 +1,4 @@
-dateModified: 1664446031
+dateModified: 1664452751
 email:
   fromEmail: $CRAFT_EMAIL
   fromName: $CRAFT_SITE_NAME
@@ -20,27 +20,19 @@ meta:
     2d0fb778-2d78-49c0-b94d-740200560f8f: Menu # Menu
     4c265acc-11f0-466c-81c1-c43c5cfa3eb9: Entry # Entry
     4d8ac26f-0eed-4e84-8f0f-fb59450142e3: English # English
-    005e684f-7b7c-4ad0-9833-7c86852558f7: Custom # Custom
     5f8ef687-1fd6-4714-9fe5-0e0f7900dcaf: Main # Main
     6bb82573-3aa5-4763-b4ca-603601dce3d2: Global # Global
     6e6e5ab5-ec46-433d-80af-42840709af85: Common # Common
     8ada0e08-6502-434a-b7ff-c252b73ca0df: German # German
-    051d5b55-8d14-441c-9e97-81e02250c265: Custom # Custom
-    53d85414-54dd-4826-93f5-7de22f9bde8c: Entry # Entry
     67f102fe-cbe0-438a-8e71-e1f062609695: Entry # Entry
     75d9dd9c-34cd-4041-8eaa-6de7733332b6: 'Custom Title' # Custom Title
-    76f56d28-6f60-4b6a-97dd-6f07b22ac710: Passive # Passive
     447b1110-2c9a-4975-80e5-fcde89668553: 'Passive Title' # Passive Title
     796b6a3e-2cbd-4359-8c33-3c5411a4112c: 'Custom URL' # Custom URL
-    15174f4c-d3be-48dc-900e-91442b621f06: Entry # Entry
     30153e1f-ab40-4497-8d01-3b1425401652: Home # Home
     a252e665-52b5-4799-b56f-cc3bc1eb184f: Home # Home
     ac64e366-584d-4540-bc8e-0cc1a7357ee6: 'Public Schema' # Public Schema
     c3ab0099-2bd0-4fb3-9f99-0b7ef05a796d: 'Custom URL' # Custom URL
-    cfa92a12-d5a1-41d8-b55e-8678206d6977: Passive # Passive
     ebf5391a-5427-4f9f-ad74-cf0abc48ad23: 'Custom Title' # Custom Title
-    ec412734-268e-44c6-a6f7-f2e534090a2a: 'Main Menu' # Main Menu
-    f2e5c428-680b-4d82-810b-a0d5e1ead17f: 'Footer Menu' # Footer Menu
     f4e1bac5-a983-4505-91d2-5a26971ad491: 'Passive Title' # Passive Title
     f5399107-84c7-4af5-8764-8c333d1b9ebc: Dutch # Dutch
     fd05975e-1963-4ddd-8f7b-57678dbe0ac6: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
