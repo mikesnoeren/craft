@@ -2,6 +2,7 @@ fieldLayouts:
   8e314877-8272-4b4d-84e3-1297f36521f5:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,10 +26,25 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 16a71954-1f69-4a8a-8a94-5d27d468ebaa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ba822d38-7688-445d-a9a4-3edbcfa6acaf
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a3f2ec3f-48dd-40cb-8686-1b422b23beeb
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: c418633f-b5e6-446f-842d-2b17449132f3
+        userCondition: null
 handle: home
 hasTitleField: true
 name: Home

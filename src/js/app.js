@@ -7,4 +7,3 @@ window.Alpine = Alpine;
 Alpine.start();
 
 // Custom JS shall be written below..
-console.log('asssd');

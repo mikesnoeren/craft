@@ -1,6 +1,7 @@
 name: craft
 type: php
 docroot: web
+upload_dir: upload
 omit_containers: ['dba']
 php_version: "8.1"
 webserver_type: nginx-fpm
@@ -17,7 +18,8 @@ mutagen_enabled: true
 use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
-nodejs_version: "16"
+timezone: Europe/Amsterdam
+nodejs_version: "18"
 hooks:
   post-start:
     - exec-host: "ddev auth ssh"
