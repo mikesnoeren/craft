@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "edd8cd4968095db82ef702533b9d70a6",
+    "content-hash": "e1503e76a00136d59245d282cbe83962",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -3031,59 +3031,6 @@
             ],
             "description": "Solspace Commons Library for Craft CMS 3 plugins",
             "time": "2020-08-06T14:40:45+00:00"
-        },
-        {
-            "name": "studioespresso/craft-dumper",
-            "version": "3.0.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/studioespresso/craft3-dumper/zipball/35155b80c813f96ee5fa377ada4726c083ce9d3d",
-                "reference": "35155b80c813f96ee5fa377ada4726c083ce9d3d",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^4.0.0-RC1"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Dumper",
-                "handle": "dumper",
-                "schemaVersion": "1.0.0",
-                "hasCpSettings": false,
-                "hasCpSection": false,
-                "changelogUrl": "https://raw.githubusercontent.com/studioespresso/craft3-dumper/master/CHANGELOG.md",
-                "class": "studioespresso\\craftdumper\\CraftDumper"
-            },
-            "autoload": {
-                "psr-4": {
-                    "studioespresso\\craftdumper\\": "src/"
-                },
-                "files": [
-                    "src/helper.php"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Studio Espresso",
-                    "homepage": "https://studioespresso.dev"
-                }
-            ],
-            "description": "Bringing larapack/dd to Craft CMS",
-            "keywords": [
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craftcms",
-                "dumper"
-            ],
-            "support": {
-                "docs": "https://github.com/studioespresso/craft3-dumper/blob/master/README.md",
-                "issues": "https://github.com/studioespresso/craft3-dumper/issues"
-            },
-            "time": "2022-05-24T17:49:13+00:00"
         },
         {
             "name": "symfony/console",

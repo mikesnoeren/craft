@@ -1,4 +1,4 @@
-dateModified: 1657207920
+dateModified: 1664445966
 email:
   fromEmail: $CRAFT_EMAIL
   fromName: $CRAFT_SITE_NAME
@@ -45,10 +45,6 @@ meta:
     f5399107-84c7-4af5-8764-8c333d1b9ebc: Dutch # Dutch
     fd05975e-1963-4ddd-8f7b-57678dbe0ac6: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
 plugins:
-  dumper:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
   elements-panel:
     edition: standard
     enabled: true
