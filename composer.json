@@ -7,6 +7,7 @@
         "nystudio107/craft-vite": "4.0.3",
         "putyourlightson/craft-elements-panel": "^2.0.0",
         "solspace/craft-express-forms": "2.0.0-beta.2",
+        "verbb/kint": "3.0.0",
         "vlucas/phpdotenv": "^5.4.1"
     },
     "require-dev": {

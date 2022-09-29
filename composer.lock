@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1503e76a00136d59245d282cbe83962",
+    "content-hash": "1ca22867e8947a55a974d6737c1c7c33",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1650,6 +1650,85 @@
                 "schema"
             ],
             "time": "2022-04-13T08:02:27+00:00"
+        },
+        {
+            "name": "kint-php/kint",
+            "version": "4.2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kint-php/kint/zipball/9230c016c976ff446f0be5cf82272db278344f69",
+                "reference": "9230c016c976ff446f0be5cf82272db278344f69",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "suggest": {
+                "kint-php/kint-helpers": "Provides extra helper functions",
+                "kint-php/kint-twig": "Provides d() and s() functions in twig templates"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "init.php"
+                ],
+                "psr-4": {
+                    "Kint\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Vollebregt",
+                    "homepage": "https://github.com/jnvsor"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/kint-php/kint/graphs/contributors"
+                }
+            ],
+            "description": "Kint - debugging tool for PHP developers",
+            "homepage": "https://kint-php.github.io/kint/",
+            "keywords": [
+                "debug",
+                "kint",
+                "php"
+            ],
+            "time": "2022-09-24T10:11:09+00:00"
+        },
+        {
+            "name": "kint-php/kint-twig",
+            "version": "3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kint-php/kint-twig/zipball/876b38c496d6bdfe6482647e8512e32e4528d811",
+                "reference": "876b38c496d6bdfe6482647e8512e32e4528d811",
+                "shasum": ""
+            },
+            "require": {
+                "kint-php/kint": "^3 || ^4",
+                "php": ">= 7.0",
+                "twig/twig": "^2.4 || ^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kint\\Twig\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Vollebregt",
+                    "email": "jnvsor@gmail.com"
+                }
+            ],
+            "description": "Twig extension for Kint integration",
+            "time": "2020-07-03T14:19:54+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -4641,6 +4720,95 @@
                 "templating"
             ],
             "time": "2022-04-06T06:47:41+00:00"
+        },
+        {
+            "name": "verbb/base",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/cfa19437cc59228329f1ef320a29aa329cebb50b",
+                "reference": "cfa19437cc59228329f1ef320a29aa329cebb50b",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "yii-module",
+            "autoload": {
+                "psr-4": {
+                    "verbb\\base\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Common utilities and building-blocks for Verbb plugins for Craft CMS.",
+            "time": "2022-05-05T00:04:02+00:00"
+        },
+        {
+            "name": "verbb/kint",
+            "version": "3.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/kint/zipball/d5afdd6515b2b651dfbb1a7eeeb23669b7e121c3",
+                "reference": "d5afdd6515b2b651dfbb1a7eeeb23669b7e121c3",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "kint-php/kint": "^4.0",
+                "kint-php/kint-twig": "^3.0",
+                "php": "^8.0.2",
+                "verbb/base": "^2.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Kint",
+                "handle": "kint",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/kint/craft-4/CHANGELOG.md",
+                "class": "verbb\\kint\\Kint"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\kint\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                },
+                {
+                    "name": "Mildly Geeky, Inc.",
+                    "homepage": "https://mildlygeeky.com"
+                }
+            ],
+            "description": "Adds Kint, an in-app PHP debugger for use in Twig and PHP.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "kint"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/kint/issues?state=open",
+                "source": "https://github.com/verbb/kint",
+                "docs": "https://github.com/verbb/kint",
+                "rss": "https://github.com/verbb/kint/commits/v2.atom"
+            },
+            "time": "2022-08-22T02:44:24+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
