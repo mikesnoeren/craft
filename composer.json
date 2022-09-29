@@ -1,10 +1,10 @@
 {
     "require": {
-        "craftcms/cms": "4.2.1.1",
+        "craftcms/cms": "4.2.5.1",
         "craftcms/redactor": "3.0.2",
         "ether/seo": "v4.0.3",
         "nystudio107/craft-autocomplete": "^1.0",
-        "nystudio107/craft-vite": "4.0.2",
+        "nystudio107/craft-vite": "4.0.3",
         "putyourlightson/craft-elements-panel": "^2.0.0",
         "solspace/craft-express-forms": "2.0.0-beta.2",
         "studioespresso/craft-dumper": "3.0.1",
