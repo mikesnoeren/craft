@@ -1,6 +1,7 @@
 name: craft
 type: php
 docroot: web
+upload_dir: upload
 omit_containers: ['dba']
 php_version: "8.1"
 webserver_type: nginx-fpm
