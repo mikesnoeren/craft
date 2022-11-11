@@ -1,4 +1,4 @@
-dateModified: 1664452751
+dateModified: 1668164543
 email:
   fromEmail: $CRAFT_EMAIL
   fromName: $CRAFT_SITE_NAME
@@ -44,7 +44,7 @@ plugins:
   express-forms:
     edition: lite
     enabled: true
-    schemaVersion: 1.0.1
+    schemaVersion: 1.0.2
   kint:
     edition: standard
     enabled: true

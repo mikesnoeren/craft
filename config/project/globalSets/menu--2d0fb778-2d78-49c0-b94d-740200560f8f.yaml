@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: ec412734-268e-44c6-a6f7-f2e534090a2a # Main Menu
+            fieldUid: ec412734-268e-44c6-a6f7-f2e534090a2a
             instructions: null
             label: null
             required: false
