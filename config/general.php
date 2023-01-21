@@ -13,8 +13,6 @@ use craft\helpers\App;
 $isDev = App::env('CRAFT_ENVIRONMENT') === 'dev';
 $isProd = App::env('CRAFT_ENVIRONMENT') === 'production';
 
-// todo: implement new fluent config type
-
 return [
     // System
     'allowAdminChanges' => $isDev,
