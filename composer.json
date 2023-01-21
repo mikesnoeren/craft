@@ -1,12 +1,12 @@
 {
     "require": {
-        "craftcms/cms": "4.3.1",
-        "craftcms/redactor": "3.0.2",
+        "craftcms/cms": "4.3.6.1",
+        "craftcms/redactor": "3.0.3",
         "ether/seo": "v4.0.3",
         "nystudio107/craft-autocomplete": "^1.0",
-        "nystudio107/craft-vite": "4.0.3",
+        "nystudio107/craft-vite": "4.0.4",
         "putyourlightson/craft-elements-panel": "^2.0.0",
-        "solspace/craft-express-forms": "2.0.0",
+        "solspace/craft-express-forms": "2.0.1",
         "verbb/kint": "3.1.0",
         "vlucas/phpdotenv": "^5.4.1"
     },
