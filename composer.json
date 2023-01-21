@@ -3,7 +3,6 @@
         "craftcms/cms": "4.3.6.1",
         "craftcms/redactor": "3.0.3",
         "ether/seo": "v4.0.3",
-        "nystudio107/craft-autocomplete": "^1.0",
         "nystudio107/craft-vite": "4.0.4",
         "putyourlightson/craft-elements-panel": "^2.0.0",
         "solspace/craft-express-forms": "2.0.1",
@@ -11,6 +10,8 @@
         "vlucas/phpdotenv": "^5.4.1"
     },
     "require-dev": {
+        "craftcms/generator": "^1.2",
+        "nystudio107/craft-autocomplete": "^1.11",
         "roave/security-advisories": "dev-latest",
         "yiisoft/yii2-shell": "^2.0.3"
     },
