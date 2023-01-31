@@ -24,9 +24,9 @@ hooks:
   post-start:
     - exec-host: "ddev auth ssh"
     - exec: "composer install --optimize-autoloader --no-interaction"
-    - exec-host: "ddev launch"
     - exec: "npm install --no-fund"
     - exec: "npm run build"
+    - exec-host: "ddev launch"
 
 # Key features of ddev's config.yaml:
 
