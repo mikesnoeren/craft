@@ -1,6 +1,6 @@
 baseUrl: '@web'
 enabled: true
-handle: English
+handle: english
 hasUrls: true
 language: en
 name: English
