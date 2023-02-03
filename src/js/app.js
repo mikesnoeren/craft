@@ -1,8 +1,8 @@
 // import css
-import "../css/style.css";
+import '../css/style.css';
 
 // import alpine
-import Alpine from "alpinejs";
+import Alpine from 'alpinejs';
 window.Alpine = Alpine;
 Alpine.start();
 
