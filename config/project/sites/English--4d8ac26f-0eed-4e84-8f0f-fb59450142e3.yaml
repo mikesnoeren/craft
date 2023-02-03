@@ -1,9 +1,9 @@
-baseUrl: $PRIMARY_SITE_URL
+baseUrl: '@web'
 enabled: true
-handle: English
+handle: english
 hasUrls: true
 language: en
 name: English
 primary: true
-siteGroup: fd05975e-1963-4ddd-8f7b-57678dbe0ac6
+siteGroup: fd05975e-1963-4ddd-8f7b-57678dbe0ac6 # $CRAFT_SITE_NAME
 sortOrder: 1

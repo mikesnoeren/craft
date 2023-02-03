@@ -20,10 +20,27 @@
         "tailwindcss": "^3.2.4",
         "vite": "^4.0.4",
         "vite-plugin-compression": "^0.5.1",
-        "vite-plugin-restart": "^0.3.0"
+        "vite-plugin-restart": "^0.3.0",
+        "prettier": "^2.8.3",
+        "prettier-plugin-tailwindcss": "^0.2.2",
+        "prettier-plugin-twig-melody": "^0.4.6",
+        "prettier-twig-craft-cms": "^0.1.0"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true,
+        "printWidth": 4000,
+        "plugins": [
+            "node_modules/prettier-plugin-twig-melody",
+            "node_modules/prettier-plugin-tailwindcss"
+        ],
+        "twigMelodyPlugins": [
+            "node_modules/prettier-twig-craft-cms"
+        ]
     },
     "scripts": {
         "build": "vite build",
-        "watch": "NODE_ENV=dev vite"
+        "watch": "NODE_ENV=dev vite",
+        "prettier": "prettier --write ./templates/**/*.twig ./src/**/*.{css,js}"
     }
 }
