@@ -17,30 +17,13 @@
         "autoprefixer": "^10.4.13",
         "postcss": "^8.4.19",
         "postcss-import": "^15.0.0",
-        "prettier": "^2.8.3",
-        "prettier-plugin-tailwindcss": "^0.2.2",
-        "prettier-plugin-twig-melody": "^0.4.6",
         "tailwindcss": "^3.2.4",
         "vite": "^4.0.4",
         "vite-plugin-compression": "^0.5.1",
         "vite-plugin-restart": "^0.3.0"
     },
-    "prettier": {
-        "tabWidth": 4,
-        "singleQuote": true,
-        "htmlWhitespaceSensitivity": "css",
-        "printWidth": 100,
-        "twigPrintWidth": 100,
-        "twigMultiTags": [
-            "nav,endnav",
-            "switch,case,default,endswitch",
-            "ifchildren,endifchildren",
-            "cache,endcache"
-        ]
-    },
     "scripts": {
         "build": "vite build",
-        "watch": "NODE_ENV=dev vite",
-        "prettier": "prettier --write ./templates/**/*.twig ./src/**/*.{css,js}"
+        "watch": "NODE_ENV=dev vite"
     }
 }
