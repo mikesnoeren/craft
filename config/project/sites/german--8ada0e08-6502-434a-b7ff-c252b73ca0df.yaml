@@ -1,4 +1,4 @@
-baseUrl: '@web_de'
+baseUrl: $CRAFT_SITE_URL_DE
 enabled: '1'
 handle: german
 hasUrls: true
