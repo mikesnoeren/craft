@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84c863081858e17f6f615d2b369d6c8e",
+    "content-hash": "5fe2095021880378f8813068b0c6bd68",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -57,15 +57,15 @@
         },
         {
             "name": "commerceguys/addressing",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/8b1bcd45971733e8f4224e539cb92838f18c4d06",
-                "reference": "8b1bcd45971733e8f4224e539cb92838f18c4d06",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/406c7b5f0fbe4f6a64155c0fe03b1adb34d01308",
+                "reference": "406c7b5f0fbe4f6a64155c0fe03b1adb34d01308",
                 "shasum": ""
             },
             "require": {
-                "doctrine/collections": "^1.2",
+                "doctrine/collections": "^1.2 || ^2.0",
                 "php": ">=7.3"
             },
             "suggest": {
@@ -100,7 +100,7 @@
                 "localization",
                 "postal"
             ],
-            "time": "2022-08-09T11:42:51+00:00"
+            "time": "2023-02-15T10:11:14+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -149,11 +149,11 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.15",
+            "version": "2.2.19",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/509dcbd4f8d459e0ef2ef223a231b8c31bceed78",
-                "reference": "509dcbd4f8d459e0ef2ef223a231b8c31bceed78",
+                "url": "https://api.github.com/repos/composer/composer/zipball/30ff21a9af9a10845436abaeeb0bb7276e996d24",
+                "reference": "30ff21a9af9a10845436abaeeb0bb7276e996d24",
                 "shasum": ""
             },
             "require": {
@@ -215,7 +215,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2022-07-01T10:01:26+00:00"
+            "time": "2023-02-04T13:54:48+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -440,16 +440,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.3.6.1",
+            "version": "4.3.10",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/c3afbef706beafbe71b64735e1124ff345dc6e48",
-                "reference": "c3afbef706beafbe71b64735e1124ff345dc6e48",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/af40a2d6e0557f6a600a22f29f1660639cd11b81",
+                "reference": "af40a2d6e0557f6a600a22f29f1660639cd11b81",
                 "shasum": ""
             },
             "require": {
                 "commerceguys/addressing": "^1.2",
-                "composer/composer": "2.2.15",
+                "composer/composer": "2.2.19",
                 "craftcms/oauth2-craftid": "~1.0.0",
                 "craftcms/plugin-installer": "~1.5.6",
                 "craftcms/server-check": "~2.1.2",
@@ -535,7 +535,7 @@
                 "docs": "https://docs.craftcms.com/v3/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2023-01-10T00:55:43+00:00"
+            "time": "2023-02-17T22:32:58+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -819,21 +819,21 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "1.8.0",
+            "version": "2.1.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/2b44dd4cbca8b5744327de78bafef5945c7e7b5e",
-                "reference": "2b44dd4cbca8b5744327de78bafef5945c7e7b5e",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/db8cda536a034337f7dd63febecc713d4957f9ee",
+                "reference": "db8cda536a034337f7dd63febecc713d4957f9ee",
                 "shasum": ""
             },
             "require": {
-                "doctrine/deprecations": "^0.5.3 || ^1",
-                "php": "^7.1.3 || ^8.0"
+                "doctrine/deprecations": "^1",
+                "php": "^8.1"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Common\\Collections\\": "lib/Doctrine/Common/Collections"
+                    "Doctrine\\Common\\Collections\\": "src"
                 }
             },
             "license": [
@@ -869,7 +869,7 @@
                 "iterators",
                 "php"
             ],
-            "time": "2022-09-01T20:12:10+00:00"
+            "time": "2022-12-27T23:41:38+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -1443,16 +1443,11 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.49.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/collections.git",
-                "reference": "4e3421032c61ad887a7a45ef4878d7bc91e2ffee"
-            },
+            "version": "v9.52.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/4e3421032c61ad887a7a45ef4878d7bc91e2ffee",
-                "reference": "4e3421032c61ad887a7a45ef4878d7bc91e2ffee",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/f3ac81877e98c0c096ef403ab4f0c7ed96623c18",
+                "reference": "f3ac81877e98c0c096ef403ab4f0c7ed96623c18",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1473,6 @@
                     "Illuminate\\Support\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1490,24 +1484,15 @@
             ],
             "description": "The Illuminate Collections package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
-            "time": "2023-01-30T15:03:14+00:00"
+            "time": "2023-02-10T19:46:01+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.49.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/conditionable.git",
-                "reference": "5b40f51ccb07e0e7b1ec5559d8db9e0e2dc51883"
-            },
+            "version": "v9.52.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/conditionable/zipball/5b40f51ccb07e0e7b1ec5559d8db9e0e2dc51883",
-                "reference": "5b40f51ccb07e0e7b1ec5559d8db9e0e2dc51883",
+                "url": "https://api.github.com/repos/illuminate/conditionable/zipball/bea24daa0fa84b7e7b0d5b84f62c71b7e2dc3364",
+                "reference": "bea24daa0fa84b7e7b0d5b84f62c71b7e2dc3364",
                 "shasum": ""
             },
             "require": {
@@ -1524,7 +1509,6 @@
                     "Illuminate\\Support\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1536,24 +1520,15 @@
             ],
             "description": "The Illuminate Conditionable package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
-            "time": "2022-07-29T19:44:19+00:00"
+            "time": "2023-02-01T21:42:32+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.49.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/contracts.git",
-                "reference": "d731949dd1deff07c5a9d01379b1c1918bfd0672"
-            },
+            "version": "v9.52.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/d731949dd1deff07c5a9d01379b1c1918bfd0672",
-                "reference": "d731949dd1deff07c5a9d01379b1c1918bfd0672",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/44f65d723b13823baa02ff69751a5948bde60c22",
+                "reference": "44f65d723b13823baa02ff69751a5948bde60c22",
                 "shasum": ""
             },
             "require": {
@@ -1572,7 +1547,6 @@
                     "Illuminate\\Contracts\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1584,20 +1558,11 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
-            "time": "2023-01-27T22:43:58+00:00"
+            "time": "2023-02-08T14:36:30+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.49.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/macroable.git",
-                "reference": "e3bfaf6401742a9c6abca61b9b10e998e5b6449a"
-            },
+            "version": "v9.52.0",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/macroable/zipball/e3bfaf6401742a9c6abca61b9b10e998e5b6449a",
@@ -1618,7 +1583,6 @@
                     "Illuminate\\Support\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1630,10 +1594,6 @@
             ],
             "description": "The Illuminate Macroable package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2022-08-09T13:29:29+00:00"
         },
         {
@@ -1919,11 +1879,11 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.8.0",
+            "version": "2.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
                 "shasum": ""
             },
             "require": {
@@ -1977,7 +1937,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2022-07-24T11:55:47+00:00"
+            "time": "2023-02-06T13:44:46+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -3387,11 +3347,11 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v6.2.5",
+            "version": "v6.2.6",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/c5e5b772033eae96ae82f2190546399ad18c1373",
-                "reference": "c5e5b772033eae96ae82f2190546399ad18c1373",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/6efa9a7521ab7d031a82cf0a759484d1b02a6ad9",
+                "reference": "6efa9a7521ab7d031a82cf0a759484d1b02a6ad9",
                 "shasum": ""
             },
             "require": {
@@ -3431,7 +3391,7 @@
             ],
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
-            "time": "2023-01-13T08:35:57+00:00"
+            "time": "2023-01-30T15:46:28+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -4877,11 +4837,11 @@
         },
         {
             "name": "voku/anti-xss",
-            "version": "4.1.39",
+            "version": "4.1.41",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/anti-xss/zipball/64a59ba4744e6722866ff3440d93561da9e85cd0",
-                "reference": "64a59ba4744e6722866ff3440d93561da9e85cd0",
+                "url": "https://api.github.com/repos/voku/anti-xss/zipball/55a403436494e44a2547a8d42de68e6cad4bca1d",
+                "reference": "55a403436494e44a2547a8d42de68e6cad4bca1d",
                 "shasum": ""
             },
             "require": {
@@ -4921,7 +4881,7 @@
                 "security",
                 "xss"
             ],
-            "time": "2022-03-08T17:03:58+00:00"
+            "time": "2023-02-12T15:56:55+00:00"
         },
         {
             "name": "voku/arrayy",
