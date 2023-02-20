@@ -1,5 +1,6 @@
 name: craft
-type: php
+type: craftcms
+disable_settings_management: true
 docroot: web
 upload_dir: upload
 omit_containers: ['dba']
