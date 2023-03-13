@@ -1,6 +1,3 @@
-import viteCompression from 'vite-plugin-compression';
-import ViteRestart from 'vite-plugin-restart';
-
 export default ({command}) => ({
     base: command === 'serve' ? '' : '/dist/',
     publicDir: './src/img',
@@ -14,16 +11,7 @@ export default ({command}) => ({
             }
         },
     },
-    plugins: [
-        viteCompression({
-            filter: /\.(js|mjs|json|css|map)$/i
-        }),
-        ViteRestart({
-            reload: [
-                './templates/**/*',
-            ],
-        }),
-    ],
+    plugins: [],
     server: {
         host: '0.0.0.0',
         port: 3000,
