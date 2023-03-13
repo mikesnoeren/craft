@@ -1,4 +1,4 @@
-dateModified: 1676930079
+dateModified: 1678744331
 email:
   fromEmail: $CRAFT_EMAIL
   fromName: $CRAFT_SITE_NAME
@@ -12,9 +12,9 @@ fs:
     hasUrls: true
     name: Main
     settings:
-      path: $CRAFT_ASSET_PATH
+      path: upload/main
     type: craft\fs\Local
-    url: $CRAFT_ASSET_URL
+    url: /upload/main
 meta:
   __names__:
     2d0fb778-2d78-49c0-b94d-740200560f8f: Menu # Menu
