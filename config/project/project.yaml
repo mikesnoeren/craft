@@ -1,4 +1,4 @@
-dateModified: 1678744331
+dateModified: 1678744394
 email:
   fromEmail: $CRAFT_EMAIL
   fromName: $CRAFT_SITE_NAME
@@ -107,7 +107,7 @@ system:
   live: true
   name: $CRAFT_SITE_NAME
   retryDuration: null
-  schemaVersion: 4.0.0.9
+  schemaVersion: 4.4.0.4
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
