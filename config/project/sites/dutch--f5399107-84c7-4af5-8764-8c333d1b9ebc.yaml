@@ -1,4 +1,4 @@
-baseUrl: '@web_nl'
+baseUrl: $CRAFT_SITE_URL_NL
 enabled: '1'
 handle: dutch
 hasUrls: true

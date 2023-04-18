@@ -26,13 +26,6 @@ return [
     'testToEmailAddress' => App::env('SITE_EMAIL'),
     'timezone' => 'Europe/Amsterdam',
     'useEmailAsUsername' => true,
-    'aliases' => [
-        '@web' => App::env('CRAFT_SITE_URL'),
-        '@web_nl' => App::env('CRAFT_SITE_URL') . '/nl/',
-        '@web_de' => App::env('CRAFT_SITE_URL') . '/de/',
-        '@assets_path' => App::env('CRAFT_ASSET_PATH'),
-        '@assets_base' => App::env('CRAFT_SITE_URL') . App::env('CRAFT_ASSET_PATH')
-    ],
 
     // Routing
     'omitScriptNameInUrls' => true,

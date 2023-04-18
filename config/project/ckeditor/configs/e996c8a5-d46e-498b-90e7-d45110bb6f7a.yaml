@@ -1,0 +1,29 @@
+headingLevels:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+name: Extended
+toolbar:
+  - heading
+  - '|'
+  - bold
+  - italic
+  - bulletedList
+  - todoList
+  - numberedList
+  - alignment
+  - '|'
+  - link
+  - code
+  - blockQuote
+  - horizontalLine
+  - pageBreak
+  - '|'
+  - selectAll
+  - findAndReplace
+  - sourceEditing
+  - undo
+  - redo

@@ -1,0 +1,51 @@
+{% if pageInfo and pageInfo.totalPages > 1 %}
+    <div class="flex justify-center gap-2 {{ class ?? '' }}">
+        {% set buttonClasses = 'inline-flex items-center rounded-md bg-zinc-800/50 p-2 text-sm font-medium text-zinc-300 transition hover:bg-zinc-800 hover:text-zinc-50 ' %}
+        {% set currentClasses = 'cursor-not-allowed bg-primary-700 text-zinc-200 hover:bg-primary-700 hover:text-zinc-200' %}
+        {% set disabledClasses = 'cursor-not-allowed hover:bg-zinc-800/50 hover:text-zinc-300' %}
+
+        {% set chevronLeft %}
+            {% include '_inc/icons/chevron-left.twig' with {
+                class: 'h-3 w-3'
+            } %}
+        {% endset %}
+
+        {% set chevronRight %}
+            {% include '_inc/icons/chevron-right.twig' with {
+                class: 'h-3 w-3'
+            } %}
+        {% endset %}
+
+        {{ tag('a', {
+            href: pageInfo.prevUrl ?? false,
+            class: buttonClasses ~ (not pageInfo.prevUrl ? disabledClasses),
+            html: chevronLeft
+        }) }}
+
+        {% for page, url in pageInfo.getPrevUrls(2) %}
+            {{ tag('a', {
+                href: url,
+                class: buttonClasses,
+                html: page
+            }) }}
+        {% endfor %}
+
+        <a class="{{ buttonClasses }} {{ currentClasses }}">
+            {{ pageInfo.currentPage }}
+        </a>
+
+        {% for page, url in pageInfo.getNextUrls(2) %}
+            {{ tag('a', {
+                href: url,
+                class: buttonClasses,
+                html: page
+            }) }}
+        {% endfor %}
+
+        {{ tag('a', {
+            href: pageInfo.nextUrl ?? false,
+            class: buttonClasses ~ (not pageInfo.nextUrl ? disabledClasses),
+            html: chevronRight
+        }) }}
+    </div>
+{% endif %}
