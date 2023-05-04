@@ -38,5 +38,10 @@ return [
     'convertFilenamesToAscii' => true,
 
     // GraphQL
-    'enableGql' => false
+    'enableGql' => false,
+
+    // Set web alias
+    'aliases' => [
+        '@web' => App::env('CRAFT_SITE_URL'),
+    ]
 ];
