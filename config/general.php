@@ -43,6 +43,6 @@ return [
     // Set web alias
     'aliases' => [
         '@web' => App::env('CRAFT_SITE_URL'),
-        '@webroot' => '@root/web',
+        '@webroot' => '@root/web'
     ]
 ];
