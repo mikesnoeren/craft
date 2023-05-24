@@ -13,13 +13,6 @@ database:
   version: "10.8"
 nfs_mount_enabled: false
 mutagen_enabled: true
-hooks:
-  post-start:
-  - exec-host: ddev auth ssh
-  - exec: composer install --optimize-autoloader --no-interaction
-  - exec: npm install --no-fund
-  - exec: npm run build
-  - exec-host: ddev launch
 upload_dir: upload
 omit_containers: [dba]
 use_dns_when_possible: true
@@ -28,6 +21,13 @@ composer_version: "2"
 disable_settings_management: true
 web_environment: []
 nodejs_version: "18"
+hooks:
+  post-start:
+    - exec-host: ddev auth ssh
+    - exec: composer install --optimize-autoloader --no-interaction
+    - exec: npm install --no-fund
+    - exec: npm run build
+    - exec-host: ddev launch
 
 # Key features of ddev's config.yaml:
 
