@@ -1,23 +1,12 @@
 {% set transform = transform ?? { width: 1920, height: 1080 } %}
+{% do image.setTransform(transform) %}
 
-{% if image|length %}
-    {% do image.setTransform(transform) %}
-
-    {{ tag('image', {
-        'src': image.url,
-        'width': image.getWidth(),
-        'height': image.getHeight(),
-        'srcset': image.getSrcset(['1x','2x']),
-        'alt': image.title,
-        'loading': 'lazy',
-        'class': 'block bg-zinc-800 ' ~ class ?? '',
-    }) }}
-{% else %}
-    {{ tag('image', {
-        'src': "https://picsum.photos/#{ transform.width }/#{ transform.height ?? transform.width }?random=#{ random(5000) }",
-        'width': transform.width,
-        'height': transform.height ?? transform.width,
-        'loading': 'lazy',
-        'class': 'block bg-zinc-800 ' ~ class ?? '',
-    }) }}
-{% endif %}
+{{ tag('image', {
+    'src': image.url,
+    'width': image.getWidth(),
+    'height': image.getHeight(),
+    'srcset': image.getSrcset(['1x','2x']),
+    'alt': image.title,
+    'loading': 'lazy',
+    'class': 'block bg-zinc-800 ' ~ class ?? '',
+}) }}

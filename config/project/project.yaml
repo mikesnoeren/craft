@@ -1,4 +1,4 @@
-dateModified: 1681843222
+dateModified: 1685868149
 email:
   fromEmail: $CRAFT_EMAIL
   fromName: $CRAFT_SITE_NAME
@@ -59,7 +59,8 @@ plugins:
   seomatic:
     edition: standard
     enabled: true
-    schemaVersion: 3.0.11
+    licenseKey: C63OQNOR5ND71J7YP89G1R7F
+    schemaVersion: 3.0.12
   vite:
     edition: standard
     enabled: true

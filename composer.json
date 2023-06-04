@@ -1,12 +1,12 @@
 {
     "require": {
-        "craftcms/ckeditor": "3.3.0",
-        "craftcms/cms": "4.4.9",
-        "nystudio107/craft-seomatic": "4.0.24",
+        "craftcms/ckeditor": "3.4.0",
+        "craftcms/cms": "4.4.13",
+        "nystudio107/craft-seomatic": "4.0.27",
         "nystudio107/craft-vite": "4.0.5",
         "solspace/craft-express-forms": "2.0.2",
         "verbb/kint": "3.1.0",
-        "verbb/navigation": "2.0.17",
+        "verbb/navigation": "2.0.18",
         "vlucas/phpdotenv": "^5.4.1"
     },
     "require-dev": {
