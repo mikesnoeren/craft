@@ -14,7 +14,6 @@ database:
 nfs_mount_enabled: false
 mutagen_enabled: true
 upload_dir: upload
-omit_containers: [dba]
 use_dns_when_possible: true
 timezone: Europe/Amsterdam
 composer_version: "2"
