@@ -1,12 +1,12 @@
 {
     "require": {
-        "craftcms/ckeditor": "3.4.0",
-        "craftcms/cms": "4.4.13",
-        "nystudio107/craft-seomatic": "4.0.27",
-        "nystudio107/craft-vite": "4.0.5",
+        "craftcms/ckeditor": "3.6.0",
+        "craftcms/cms": "4.5.6.1",
+        "nystudio107/craft-seomatic": "4.0.31",
+        "nystudio107/craft-vite": "4.0.6",
         "solspace/craft-express-forms": "2.0.2",
-        "verbb/kint": "3.1.0",
-        "verbb/navigation": "2.0.18",
+        "verbb/kint": "3.1.1",
+        "verbb/navigation": "2.0.21",
         "vlucas/phpdotenv": "^5.4.1"
     },
     "require-dev": {
@@ -35,5 +35,12 @@
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.craftcms.com",
+            "canonical": false
+        }
+    ]
 }
